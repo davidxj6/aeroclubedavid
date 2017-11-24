@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nome:</strong>
+  <%= @aeronave.nome %>
+</p>
+
+<p>
+  <strong>Tripulantes:</strong>
+  <%= @aeronave.tripulantes %>
+</p>
+
+<p>
+  <strong>Tamanho:</strong>
+  <%= @aeronave.tamanho %>
+</p>
+
+<p>
+  <strong>Chassi:</strong>
+  <%= @aeronave.chassi %>
+</p>
+
+<p>
+  <strong>Horasvoo:</strong>
+  <%= @aeronave.horasVoo %>
+</p>
+
+<p>
+  <strong>Motor:</strong>
+  <%= @aeronave.motor %>
+</p>
+
+<%= link_to 'Edit', edit_aeronave_path(@aeronave) %> |
+<%= link_to 'Back', aeronaves_path %>
