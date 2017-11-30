@@ -187,7 +187,6 @@ DEPENDENCIES
   devise
   jbuilder (~> 2.0)
   jquery-rails
-  less-rails
   pg
   rails (= 4.2.6)
   sass-rails (~> 5.0)
